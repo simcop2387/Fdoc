@@ -1,0 +1,25 @@
+Input -> Tree -> Output
+
+Input consists of
+	Detection (extension?)
+	Parsing (plugins)
+	
+Output consists of
+	Output (plugins)
+		LaTeX
+		HTML
+		
+Function Definition Class
+	file
+	line
+	parameters
+	return value (if applicable)
+	comments
+
+Structure
+
+Class
+	has
+	extends
+	extendedby
+	

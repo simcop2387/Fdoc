@@ -496,8 +496,8 @@ my $s;		# warning - not re-entrant
 my $fullstring;
 my $charcount;
 use warnings;
-use Language::Farnsworth::Parser::Extra; #provides a really nasty regex for lots of fun unicode symbols
-my $uni = $Language::Farnsworth::Parser::Extra::regex; #get the really annoyingly named regex
+use Fdoc::Input::Parser::Farnsworth::ParserExtra; #provides a really nasty regex for lots of fun unicode symbols
+my $uni = $Fdoc::Input::Parser::Farnsworth::ParserExtra::regex; #get the really annoyingly named regex
 my $identifier = qr/(?:\w|$uni)(?:[\w\d]|$uni)*/;
 
 
